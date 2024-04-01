@@ -4,11 +4,13 @@
   "description": "Running Three.js WebXR on GitHub pages",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack serve --config ./src/client/webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/three": "^0.163.0",
     "three": "^0.163.0"
   }
 }
